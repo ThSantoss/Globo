@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans:wght@400;500;700&display=swap');
+* {
+margin: 0;
+padding: 0;
+border-radius: none;
+text-decoration: none;
+font-family: 'Encode Sans', 'bebas neue', sans-serif;
+}
+
+  /*Logo*/
+.logo {
+    display: flex;
+    justify-content: center;
+    
+}
+.logo img {
+    max-width: 171px;
+    margin: 40px;
+}
+/*Header*/
+.nav  {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    list-style: none;
+    font-size: 19px;
+    line-height: 23.75px;
+    font-weight: 700;
+}
+
+
+.color1 {
+    color: #C3170C;
+}
+.color2 {
+    color:#1E4B9B;
+}
+.color3 {
+    color:#006766;
+}
+.color4 {
+    color:#07AA47;
+}
+.color5 {
+    color:#E3662B;
+}
+.color6 {
+    color:#FB0735;
+}
+.color7 {
+    color:#FF75BB;
+}
+.color8 {
+    color:#EC7D00;
+}
+.color9 {
+    color:#323333;
+}
+
+.color10 {
+    color:#A81D83;
+}
+
+
+/*Titulo*/
+h1 {
+    width: 624px;
+    height: 201px;
+    line-height: 67px;
+    font-size: 52px;
+    margin:25px;
+    color: #C4160C;
+
+}
+
+.sub-titulo {
+    margin: 25px;
+    list-style: none;
+}
+.sub-titulo li {
+    margin-top: 8px;
+}
+
+.hr1 {
+    margin:5px;
+    border: 0;
+    border-top: 1px solid #EBEDEF;
+}
+
+/*New*/
+.grid1 {
+display: grid;
+grid-template-columns: 1fr;
+
+} 
+
+.noticia {
+    max-width: 624px;
+    /*max-height: 300px;*/
+    margin:25px;
+}
+ 
+.flex-box {
+    display: flex;  
+    max-width: 600px;
+    max-height: 300px;
+    margin: 25px 24px;
+    text-align: left;
+
+}
+.flex-box img{
+    margin-right: 15px;
+}
+
+.flex-box h3 {
+    max-width: 192px;
+    font-size: 20px;
+    Line-height: 25px;
+    margin:6px;
+    text-align: left;
+    color: #2F3134;
+
+}
+
+.noticia2 { 
+    max-width: 192px;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: #C4170C;
+    margin:6px;
+}
+
+.noticia3  {
+ max-width: 174px;
+ max-height: 42.5px;
+ margin: 6px;
+ padding: 11px;
+ font-size: 14px;
+ line-height: 19px;
+}
+
+.noticia4 {
+max-width: 240px;
+margin: 8px;
+color:#16AE54;
+font-size: 14px;
+line-height: 17,5px;
+}
+.noticia5 {
+    width: 217px;
+    height: 43px;
+    margin: 8px;
+}
+.noticia6 {
+ max-width: 240px;
+ max-height: 19px;
+ margin: 8px;
+ font-size: 14px;
+ color:#EC8006;
+ line-height: 17.5px;
+}
+.noticia7 {
+    margin-top: 9px;
+}
+
+.collum-grid h3 {
+ max-width: 240px;
+ max-height: 84px;
+ font-size: 20px;
+ line-height: 25px;
+ padding: 4px;
+}
+
+.flex1 , 
+.flex2 , 
+.flex3 {
+    max-width: 200px;
+}
+
+.hr4 {
+    height:800px;
+    border-left: 1px solid #EBEDEF ;
+}
+.grid1 {
+    display:  flex;
+    justify-content: space-around;
+}
+.grid-news {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin-top: 36px;
+}

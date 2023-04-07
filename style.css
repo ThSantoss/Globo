@@ -208,6 +208,10 @@ line-height: 17,5px;
 }
 
 @media (max-width:  560px) {
+.nav {
+gap: 50px;
+overflow: scroll;
+    }
 
 h1 {
  text-align:left;
